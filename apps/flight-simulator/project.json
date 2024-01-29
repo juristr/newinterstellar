@@ -3,6 +3,13 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/flight-simulator",
   "projectType": "application",
-  "targets": {},
+  "targets": {
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "port": 4202
+      }
+    }
+  },
   "tags": []
 }

@@ -9,6 +9,6 @@ export default defineConfig({
       webServerCommands: { default: 'nx run flight-simulator:start' },
       ciWebServerCommand: 'nx run crew:serve-static',
     }),
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:4202',
   },
 });

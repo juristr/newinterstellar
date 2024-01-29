@@ -17,6 +17,18 @@
     ],
     "sharedGlobals": []
   },
+  "targetDefaults": {
+    "@nx/next:build": {
+      "outputs": ["{projectRoot}/out"]
+    },
+    "serve-static": {
+      "dependsOn": ["build"],
+      "options": {
+        "watch": false,
+        "staticFilePath": "{projectRoot}/out"
+      }
+    }
+  },
   "plugins": [
     {
       "plugin": "@nx/next/plugin",
