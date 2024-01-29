@@ -18,9 +18,6 @@
     "sharedGlobals": []
   },
   "targetDefaults": {
-    "@nx/next:build": {
-      "outputs": ["{projectRoot}/out"]
-    },
     "serve-static": {
       "dependsOn": ["build"],
       "options": {
