@@ -7,7 +7,7 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'src',
       webServerCommands: { default: 'nx run flight-simulator:start' },
-      ciWebServerCommand: 'nx run crew:serve-static',
+      ciWebServerCommand: 'nx run flight-simulator:serve-static',
     }),
     baseUrl: 'http://localhost:4202',
   },
