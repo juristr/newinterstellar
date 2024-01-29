@@ -1,0 +1,8 @@
+{
+  "name": "flight-simulator-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/flight-simulator-e2e/src",
+  "targets": {},
+  "tags": [],
+  "implicitDependencies": ["flight-simulator"]
+}
