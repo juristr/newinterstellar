@@ -1,7 +1,7 @@
 import styles from './index.module.css';
 
 export function Index() {
-  console.log('hi there 2');
+  console.log('hi there 333');
   /*
    * Replace the elements below with your own.
    *

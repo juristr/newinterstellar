@@ -1,7 +1,7 @@
 {
-  "name": "crew",
+  "name": "navigation",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/crew",
+  "sourceRoot": "apps/navigation",
   "projectType": "application",
   "targets": {
     "build": {
@@ -10,7 +10,7 @@
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "port": 4201
+        "port": 4203
       }
     }
   },

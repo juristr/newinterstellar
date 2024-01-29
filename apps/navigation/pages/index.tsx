@@ -1,7 +1,6 @@
 import styles from './index.module.css';
 
 export function Index() {
-  console.log('test2');
   /*
    * Replace the elements below with your own.
    *
@@ -14,7 +13,7 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome flight-simulator 👋
+              Welcome navigation 👋
             </h1>
           </div>
 
