@@ -1,7 +1,12 @@
 {
+  "nxCloudAccessToken": "YzcxYTIyOTktMzIwNC00YzZkLWJkZmEtYjhhM2ZjODdkNzE2fHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "https://cloud.nx.app",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
     "production": [
       "default",
       "!{projectRoot}/cypress/**/*",
@@ -19,7 +24,9 @@
   },
   "targetDefaults": {
     "serve-static": {
-      "dependsOn": ["build"],
+      "dependsOn": [
+        "build"
+      ],
       "options": {
         "watch": false,
         "staticFilePath": "{projectRoot}/out"
